@@ -7,23 +7,26 @@ Projetos desenvolvidos no Bootcamp de Spring Boot em Java e Angular 17+
 ```mermaid
 classDiagram
     class Book {
-        +String title
-        +String edition
-        +String author
-        +String publicationDate
-        +String postDate
-        +String description
-        +String imageUrl,
-        +Category category
-        +Tag[] tags
+        -Long id
+        -String title
+        -String edition
+        -String author
+        -String publicationDate
+        -String postDate
+        -String description
+        -String imageUrl,
+        -Category category
+        -List<Tag> tags
     }
     
     class Category {
-        +String name
+        -Long id
+        -String name
     }
 
     class Tag {
-        +String name
+        -Long id
+        -String name
     }
 
     Book "1" --* "1" Category : has
