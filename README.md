@@ -26,6 +26,6 @@ classDiagram
         +String name
     }
 
-    Book "1..*" --* "1" Category : has
+    Book "1" --* "1" Category : has
     Book "1..*" --> "0..*" Tag : has
 ```
