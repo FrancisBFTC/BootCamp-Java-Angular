@@ -1,0 +1,19 @@
+{
+  "livro" : {
+    "titulo" : "Titulo do livro",
+    "edicao" : "Edicao do livro",
+    "autor"  : "Autor do livro",
+    "publicacao" : "data de publicacao do livro",
+    "postagem"   : "data da postagem do livro",
+    "descricao"  : "sinopse do livro",
+    "imagem"     : "URL da imagem do livro",
+    "categoria"  : {
+      "nome"  : "categoria do livro"
+    },
+    "tags" : [
+      {
+        "nome"   : "#nome-da-tag"
+      }
+    ]
+  }
+}
