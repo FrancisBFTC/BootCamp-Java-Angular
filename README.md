@@ -16,7 +16,7 @@ classDiagram
         -String description
         -String imageUrl,
         -Category category
-        -List<Tag> tags
+        -Tag[] tags
     }
     
     class Category {
