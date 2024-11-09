@@ -1,0 +1,14 @@
+{
+    "version": "0.0.1",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Spring Boot",
+        "request": "launch",
+        "mainClass": "me.dio.Application",
+        "vmArgs": "-Dspring.profiles.active=dev",
+        "projectName": "BootCamp-Java"
+      }
+    ]
+  }
+  
