@@ -1,11 +1,12 @@
-package me.dio.domain.repository;
+package org.bookplace.domain.repository;
 
+
+import org.bookplace.domain.model.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import me.dio.domain.model.Book;
-
 @Repository
 public interface BookRepository extends JpaRepository<Book, Long>{
-
+    Book findByCategoryName(String categoryName);
+    Book findByTagsName(String tagsName);
 }
