@@ -1,16 +1,14 @@
 package org.bookplace.domain.model;
 
 import java.time.LocalDate;
-import java.util.List;
+import java.util.Set;
 
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
+import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
 @Data
@@ -27,8 +25,9 @@ public class Book {
     private String description;
     private String imageUrl;
 
-    @OneToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     private Category category;
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private List<Tag> tags;
+    //@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @ManyToMany
+    private Set<Tag> tags;
 }
