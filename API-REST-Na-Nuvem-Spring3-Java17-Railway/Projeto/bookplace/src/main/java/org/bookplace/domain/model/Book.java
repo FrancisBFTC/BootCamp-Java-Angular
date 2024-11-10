@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.Set;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -28,6 +29,6 @@ public class Book {
     @ManyToOne
     private Category category;
     //@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     private Set<Tag> tags;
 }

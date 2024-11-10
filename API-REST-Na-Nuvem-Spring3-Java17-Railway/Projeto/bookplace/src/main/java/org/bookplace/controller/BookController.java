@@ -2,6 +2,7 @@ package org.bookplace.controller;
 
 import java.net.URI;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import org.bookplace.domain.model.Book;
 import org.bookplace.service.BookService;
@@ -46,8 +47,11 @@ public class BookController {
     @GetMapping(value = "/{id}")
     public ResponseEntity<Book> searchBook(@PathVariable Long id){
         Book book = bookService.buscar(id);
-        return (book != null)   ? ResponseEntity.ok().body(book) 
-                                : ResponseEntity.notFound().build();
+        if(book != null)
+            return ResponseEntity.ok().body(book); 
+        else
+            throw new NoSuchElementException(ResponseEntity.notFound().build() + ". Nao foi encontrado o dado com ID = " + id);
+
     }
 
     @GetMapping(value = "/all")
@@ -59,11 +63,12 @@ public class BookController {
     @DeleteMapping(value = "/{id}")
     public ResponseEntity<String> deleteBook(@PathVariable Long id){
         Book book = bookService.buscar(id);
-        if(book != null)
+        if(book == null){
+            throw new NoSuchElementException("Nao foi encontrado o dado com ID = " + id);
+        }else{
             bookService.deletar(id);
-            
-        return (book == null)   ? ResponseEntity.status(404).body("Não foi encontrado o dado com ID = " + id)
-                                : ResponseEntity.status(200).body("O livro '" + book.getTitle() + "' foi deletado!");
+            return ResponseEntity.status(200).body("O livro '" + book.getTitle() + "' foi deletado!");
+        }
     }
 
 }
