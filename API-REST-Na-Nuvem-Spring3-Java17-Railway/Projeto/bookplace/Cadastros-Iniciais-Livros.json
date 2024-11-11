@@ -1,87 +1,88 @@
 {
-  "title": "Sistemas Operacionais Modernos",
-  "edition": "3ª edição",
-  "author": "William Stallings",
-  "publicationDate": "2015-04-07",
-  "postDate": "2024-11-11",
-  "description": "/"Sistemas Operacionais Modernos/", de Andrew S. Tanenbaum, é um livro fundamental para entender os princípios e a prática dos sistemas operacionais. Ele cobre uma ampla gama de tópicos, incluindo gerenciamento de processos, memória, sistemas de arquivos, E/S, segurança e proteção. Tanenbaum também explora conceitos mais avançados, como sistemas distribuídos, redes e virtualização, proporcionando uma visão completa sobre como os sistemas operacionais funcionam e como eles são projetados",
-  "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/sistemas-operacionais-modernos.png?raw=true",
-  "category": {
-    "name": "Computação"
-  },
-  "tags": [
-    {
-      "name": "#arquitetura"
+  "livro" : {
+    "id": 1,
+    "title": "Sistemas Operacionais Modernos",
+    "edition": "3ª edição",
+    "author": "William Stallings",
+    "publicationDate": "2015-04-07",
+    "postDate": "2024-11-11",
+    "description": "Sistemas Operacionais Modernos, de Andrew S. Tanenbaum, é um livro fundamental para entender os princípios e a prática dos sistemas operacionais. ",
+    "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/sistemas-operacionais-modernos.png?raw=true",
+    "category": {
+      "id": 1,
+      "name": "Computação"
     },
-    {
-      "name": "#sistemasoperacionais"
-    }
-  ]
-}
-
-
-
-{
-  "title": "Arquitetura e Organização de Computadores",
-  "edition": "10ª edição",
-  "author": "William Stallings",
-  "publicationDate": "2017-09-15",
-  "postDate": "2024-11-10",
-  "description": "Arquitetura e organização de computadores, de William Stallings, além de apresentar as principais mudanças, inovações e melhorias na área de computação por meio de uma abordagem ampla e abrangente da área de arquitetura de computadores, também promove uma profunda reflexão sobre os fundamentos da área, estabelecendo relações com questões contemporâneas de design computacional. ",
-  "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/Arquitetura-e-organização-de-computadores.jpg",
-  "category": {
-    "name": "Computação"
+    "tags": [
+      {
+        "name": "#sistemasoperacionais"
+      },
+      {
+        "name": "#arquitetura"
+      }
+    ]
   },
-  "tags": [
-    {
-      "name": "#arquitetura"
+
+  "livro" : {
+    "title": "Arquitetura e Organização de Computadores",
+    "edition": "10ª edição",
+    "author": "William Stallings",
+    "publicationDate": "2017-09-15",
+    "postDate": "2024-11-10",
+    "description": "Arquitetura e organização de computadores, de William Stallings, além de apresentar as principais mudanças, inovações e melhorias na área de computação por meio de uma abordagem ampla e abrangente da área de arquitetura de computadores, também promove uma profunda reflexão sobre os fundamentos da área, estabelecendo relações com questões contemporâneas de design computacional. ",
+    "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/Arquitetura-e-organização-de-computadores.jpg",
+    "category": {
+      "name": "Computação"
     },
-    {
-      "name": "#computadores"
-    }
-  ]
-}
-
-
-{
-  "title": "Engenharia de Software: Uma abordagem profissional",
-  "edition": "9ª edição",
-  "author": "Roger S. Pressman",
-  "publicationDate": "2021-05-05",
-  "postDate": "2024-11-10",
-  "description": "A nova edição do livro-texto líder de mercado em engenharia de software traz uma série de novidades. O livro foi totalmente revisado e reestruturado para melhorar seu fluxo pedagógico.Traz novos e importantes processos e práticas da área, dentre eles o uso de inteligência artificial e machine learning para garantir velocidade e qualidade nas entregas. O autor enfatiza aspectos de qualidade de software , principalmente no uso de métodos ágeis. Segurança é outro item que ganhou destaque. ",
-  "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/Engenharia-de-software-uma-abordagem-profissional.jpg",
-  "category": {
-    "name": "Computação"
+    "tags": [
+      {
+        "name": "#arquitetura"
+      },
+      {
+        "name": "#computadores"
+      }
+    ]
   },
-  "tags": [
-    {
-      "name": "#engenhariadesoftware"
+
+  "livro" : {
+    "title": "Engenharia de Software: Uma abordagem profissional",
+    "edition": "9ª edição",
+    "author": "Roger S. Pressman",
+    "publicationDate": "2021-05-05",
+    "postDate": "2024-11-10",
+    "description": "A nova edição do livro-texto líder de mercado em engenharia de software traz uma série de novidades. O livro foi totalmente revisado e reestruturado para melhorar seu fluxo pedagógico.Traz novos e importantes processos e práticas da área, dentre eles o uso de inteligência artificial e machine learning para garantir velocidade e qualidade nas entregas. O autor enfatiza aspectos de qualidade de software , principalmente no uso de métodos ágeis. Segurança é outro item que ganhou destaque. ",
+    "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/Engenharia-de-software-uma-abordagem-profissional.jpg",
+    "category": {
+      "name": "Computação"
     },
-    {
-      "name": "#qualidadedesoftware"
-    }
-  ]
-}
-
-
-{
-  "title": "Algoritmos e Programação de Computadores",
-  "edition": "2ª edição",
-  "author": "Dilermando Junior",
-  "publicationDate": "2021-01-25",
-  "postDate": "2024-11-10",
-  "description": "Esta obra, em sua 2ª edição revisada e ampliada, trata, com linguagem acessível, dos assuntos relacionados aos temas de algoritmos e do ensino de linguagens de programação de computadores, do básico ao complexo. Além disso, tomando como base metodologias mais ativas e voltadas ao público adulto, cada capítulo ou tema é trabalhado partindo-se de uma situação problema, passando pela resolução, ampliação do foco do tema, conceituação, reflexo nas linguagens e exercícios. ",
-  "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/Algoritmos-e-programação-de-computadores.jpg",
-  "category": {
-    "name": "Computação"
+    "tags": [
+      {
+        "name": "#engenhariadesoftware"
+      },
+      {
+        "name": "#qualidadedesoftware"
+      }
+    ]
   },
-  "tags": [
-    {
-      "name": "#algoritmos"
+
+  "livro" : {
+    "title": "Algoritmos e Programação de Computadores",
+    "edition": "2ª edição",
+    "author": "Dilermando Junior",
+    "publicationDate": "2021-01-25",
+    "postDate": "2024-11-10",
+    "description": "Esta obra, em sua 2ª edição revisada e ampliada, trata, com linguagem acessível, dos assuntos relacionados aos temas de algoritmos e do ensino de linguagens de programação de computadores, do básico ao complexo. Além disso, tomando como base metodologias mais ativas e voltadas ao público adulto, cada capítulo ou tema é trabalhado partindo-se de uma situação problema, passando pela resolução, ampliação do foco do tema, conceituação, reflexo nas linguagens e exercícios. ",
+    "imageUrl": "https://github.com/FrancisBFTC/BootCamp-Java-Angular/blob/main/API-REST-Na-Nuvem-Spring3-Java17-Railway/Modelagem/Imagens/Algoritmos-e-programação-de-computadores.jpg",
+    "category": {
+      "name": "Computação"
     },
-    {
-      "name": "#programacao"
-    }
-  ]
+    "tags": [
+      {
+        "name": "#algoritmos"
+      },
+      {
+        "name": "#programacao"
+      }
+    ]
+  }
+
 }
