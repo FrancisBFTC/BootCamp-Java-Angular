@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .env
+.env*
+.flaskenv*
+!.env.project
+!.env.vault

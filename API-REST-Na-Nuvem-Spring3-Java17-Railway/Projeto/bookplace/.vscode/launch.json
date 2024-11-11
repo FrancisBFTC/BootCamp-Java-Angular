@@ -7,7 +7,7 @@
         "request": "launch",
         "mainClass": "org.bookplace.Bookplace",
         "projectName": "bookplace",
-        "envFile": "../.env"
+        "envFile": "${workspaceFolder}/.env"
       },
       {
         "name": "Spring Boot: Dev",
@@ -27,7 +27,7 @@
         "mainClass": "org.bookplace.Bookplace",
         "projectName": "Bookplace",
         "args": "--spring.profiles.active=prd",
-        "envFile": ".env"
+        "envFile": "${workspaceFolder}/.env"
       }
     ]
   }
